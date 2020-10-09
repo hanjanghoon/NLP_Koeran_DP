@@ -1,18 +1,19 @@
-# NeuroNLP2
-Deep neural models for core NLP tasks based on Pytorch(version 2)
+# Korean Dependeny Parsing
+> Right to Left Korean Dependency parser
 
-This is the code we used in the following papers
->[End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](http://www.cs.cmu.edu/~xuezhem/publications/P16-1101.pdf)
+> Left to Right Korean Dependency parser
 
->Xuezhe Ma, Eduard Hovy
+> Stack-Pointer Networks for Korean Dependency Parsing
 
->ACL 2016
+> korean Deep Biaffine Attention
 
->[Neural Probabilistic Model for Non-projective MST Parsing](http://www.cs.cmu.edu/~xuezhem/publications/IJCNLP2017.pdf)
+## Reference paper
 
->Xuezhe Ma, Eduard Hovy
+>[Left-to-Right Dependency Parsing with Pointer Networks](https://www.aclweb.org/anthology/N19-1076.pdf)
 
->IJCNLP 2017
+>Daniel Fernández-González, Carlos Gómez-Rodríguez
+
+>NAACL 2019
 
 >[Stack-Pointer Networks for Dependency Parsing](https://arxiv.org/pdf/1805.01087.pdf)
 
@@ -27,42 +28,6 @@ It also includes the re-implementation of the Stanford Deep BiAffine Parser:
 
 >ICLR 2017
 
-## Requirements
+## Embedding
 
-Python 2.7, PyTorch >=0.3.0, Gensim >= 0.12.0
-
-## Data format
-For the data format used in our implementation, please read this [issue](https://github.com/XuezheMax/NeuroNLP2/issues/9).
-
-## Running the experiments
-
-### Sequence labeling
-In the root of the repository, first make the tmp directory:
-
-    mkdir tmp
-
-To train a CRF POS tagger, 
-
-    ./example/run_posCRFTagger.sh
-where the arguments for ```train/dev/test``` data, together with the pretrained word embedding should be setup.
-
-To train a NER model,
-
-    ./example/run_ner_crf.sh
-
-#### Note
-If you want to apply the sequence labeling model to other tasks or different datasets, please be sure to remove the corresponding folders storing the vocabularies located in ```data/alphabets/```. Otherwise, the old vocabularies will be loaded from disk.
-
-### Dependency Parsing
-To train a Stack-Pointer parser, simply run
-
-    ./example/run_stackPtrParser.sh
-Remeber to setup the paths for data and embeddings.
-
-To train a Deep BiAffine parser, simply run
-
-    ./example/run_graphParser.sh
-Again, remember to setup the paths for data and embeddings.
-
-To train a Neural MST parser, run the same script, but change the argument ```objective``` from ```cross_entropy``` to ```crf``` (this part is still under development).
- 
+Etri BERT Embedding, 4GB newsdata ELMo embedding
