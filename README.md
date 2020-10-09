@@ -1,18 +1,5 @@
-# NeuroNLP2
+# Korean Dependeny Parsing
 Deep neural models for core NLP tasks based on Pytorch(version 2)
-
-This is the code we used in the following papers
->[End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](http://www.cs.cmu.edu/~xuezhem/publications/P16-1101.pdf)
-
->Xuezhe Ma, Eduard Hovy
-
->ACL 2016
-
->[Neural Probabilistic Model for Non-projective MST Parsing](http://www.cs.cmu.edu/~xuezhem/publications/IJCNLP2017.pdf)
-
->Xuezhe Ma, Eduard Hovy
-
->IJCNLP 2017
 
 >[Stack-Pointer Networks for Dependency Parsing](https://arxiv.org/pdf/1805.01087.pdf)
 
