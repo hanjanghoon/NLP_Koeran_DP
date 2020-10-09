@@ -21,7 +21,6 @@
 
 >ACL 2018
 
-It also includes the re-implementation of the Stanford Deep BiAffine Parser:
 >[Deep Biaffine Attention for Neural Dependency Parsing](https://arxiv.org/abs/1611.01734)
 
 >Timothy Dozat, Christopher D. Manning
