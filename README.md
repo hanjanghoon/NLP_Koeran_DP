@@ -34,4 +34,6 @@ Etri BERT Embedding, 4GB newsdata ELMo embedding
 ## Paper
 **Korean Dependency Parsing Using Sequential Parsing Method Based on Pointer Network**
 
-Janghoon Han, Yeongjoon Park, Younghoon Jeong, Inkwon Lee, Jungwook Han, Seojun Park, Juae Kim, and Jeongyeon Seo Proceedings of the 31st Annual Conference on Human and Cognitive Language Technology, pp. 533-536, 2019.
+Janghoon Han, Yeongjoon Park, Younghoon Jeong, Inkwon Lee, Jungwook Han, Seojun Park, Juae Kim, and Jeongyeon Seo
+
+Proceedings of the 31st Annual Conference on Human and Cognitive Language Technology, pp. 533-536, 2019.
