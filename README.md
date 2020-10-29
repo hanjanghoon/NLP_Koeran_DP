@@ -37,3 +37,5 @@ Etri BERT Embedding, 4GB newsdata ELMo embedding
 Janghoon Han, Yeongjoon Park, Younghoon Jeong, Inkwon Lee, Jungwook Han, Seojun Park, Juae Kim, and Jeongyeon Seo
 
 Proceedings of the 31st Annual Conference on Human and Cognitive Language Technology, pp. 533-536, 2019.
+
+![image](https://user-images.githubusercontent.com/32722198/97518177-1ae96380-19da-11eb-86c1-9966cfb81dbc.png)
