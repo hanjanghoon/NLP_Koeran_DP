@@ -39,3 +39,10 @@ Janghoon Han, Yeongjoon Park, Younghoon Jeong, Inkwon Lee, Jungwook Han, Seojun 
 Proceedings of the 31st Annual Conference on Human and Cognitive Language Technology, pp. 533-536, 2019.
 
 ![image](https://user-images.githubusercontent.com/32722198/97518177-1ae96380-19da-11eb-86c1-9966cfb81dbc.png)
+
+Validation performance  
+seed	0	2020	904	404	1118	Average  
+R@1	0.9106	0.91126	0.9099	0.91002	0.91188	0.910732  
+R@2	0.96236	0.9623	0.96232	0.96268	0.96284	0.9625  
+R@5	0.99362	0.9942	0.99386	0.99452	0.99368	0.993976  
+
