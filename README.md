@@ -38,6 +38,8 @@ Janghoon Han, Yeongjoon Park, Younghoon Jeong, Inkwon Lee, Jungwook Han, Seojun 
 
 Proceedings of the 31st Annual Conference on Human and Cognitive Language Technology, pp. 533-536, 2019.
 
+국어 정보 처리 시스템 경진 대회 의존 구문 분석 대상
+
 ![image](https://user-images.githubusercontent.com/32722198/97518177-1ae96380-19da-11eb-86c1-9966cfb81dbc.png)
 
 
