@@ -40,6 +40,8 @@ Proceedings of the 31st Annual Conference on Human and Cognitive Language Techno
 
 2019 국어 정보 처리 시스템 경진 대회 대상
 
+세종 데이터 성능
+
 ![image](https://user-images.githubusercontent.com/32722198/97518177-1ae96380-19da-11eb-86c1-9966cfb81dbc.png)
 
 
